@@ -261,14 +261,14 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 ```mermaid
 graph TD
     A[User Devices]
-    A -->|Interact| B[Frontend (PWA - React/Svelte)]
-    B -->|API Calls| C[Backend Server (Node.js/Go)]
-    C --> D[(Database - Supabase/Firebase)]
-    C --> E[(Media Storage - IPFS/S3)]
-    C --> F[Auth Service (Passwordless OTP)]
-    C --> G[Third-Party Services]
-    G --> H[Push Notifications]
-    G --> I[Analytics]
+    A -->|Interact| B["Frontend (PWA - React or Svelte)"]
+    B -->|API Calls| C["Backend Server (Node.js or Go)"]
+    C --> D["Database (Supabase or Firebase)"]
+    C --> E["Media Storage (IPFS or S3)"]
+    C --> F["Auth Service (Passwordless OTP)"]
+    C --> G["Third-Party Services"]
+    G --> H["Push Notifications"]
+    G --> I["Analytics"]
 
 ```
 
