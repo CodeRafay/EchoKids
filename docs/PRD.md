@@ -10,7 +10,53 @@
 **Date:** August 11, 2025
 
 ---
+# Table of Contents
 
+1. [Introduction](#introduction)
+   - [1.1 Overview](#11-overview)
+
+2. [Target Audience](#target-audience)
+
+3. [Goals & Objectives](#goals-objectives)
+
+4. [Core Features & Functional Requirements](#core-features-functional-requirements)
+   - [4.1 Storytelling](#41-storytelling)
+   - [4.2 Vocabulary & Knowledge Tracking](#42-vocabulary-knowledge-tracking)
+   - [4.3 Assessments & Gamification](#43-assessments-gamification)
+
+5. [Community Contribution Features](#community-contribution-features)
+   - [5.1 Roles](#51-roles)
+   - [5.2 Contributor Dashboard](#52-contributor-dashboard)
+
+6. [Offline Optimization & Accessibility](#offline-optimization-accessibility)
+
+7. [Ethical Social Storytelling](#ethical-social-storytelling)
+
+8. [Technical Stack & Implementation](#technical-stack-implementation)
+
+9. [Performance & Optimization Plan](#performance-optimization-plan)
+
+10. [Non-Functional Requirements](#non-functional-requirements)
+    - [Security](#security)
+    - [Scalability](#scalability)
+    - [Maintainability](#maintainability)
+    - [Reliability](#reliability)
+
+11. [Future Roadmap](#future-roadmap)
+
+12. [Diagrams](#diagrams)
+    - [12.1 High-Level App Architecture Diagram](#121-high-level-app-architecture-diagram)
+    - [12.2 User Flow Diagram](#122-user-flow-diagram)
+    - [12.3 Wireframes / UI Screen Flow](#123-wireframes-ui-screen-flow)
+    - [12.4 Data Flow Diagram (Level 0)](#124-data-flow-diagram-level-0)
+    - [12.5 Entity Relationship Diagram (ERD)](#125-entity-relationship-diagram-erd)
+    - [12.6 Use Case Diagram](#126-use-case-diagram)
+    - [12.7 Sequence Diagram (Child completes activity)](#127-sequence-diagram-child-completes-activity)
+    - [12.8 Gamification Logic Flowchart](#128-gamification-logic-flowchart)
+    - [12.9 Accessibility Compliance Checklist](#129-accessibility-compliance-checklist)
+
+
+---
 ## **1. Introduction**
 
 ### **1.1 Overview**
