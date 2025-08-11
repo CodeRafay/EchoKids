@@ -1,4 +1,3 @@
-
 # **Project Requirements & Functional Specification**
 
 **Project Title:** Community-Driven Educational Storytelling App for Children (Ages 4–10)
@@ -10,41 +9,46 @@
 **Date:** August 11, 2025
 
 ---
+
 # Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#1-introduction)
+
    - [1.1 Overview](#11-overview)
 
-2. [Target Audience](#target-audience)
+2. [Target Audience](#2-target-audience)
 
-3. [Goals & Objectives](#goals-objectives)
+3. [Goals & Objectives](#3-goals-objectives)
 
-4. [Core Features & Functional Requirements](#core-features-functional-requirements)
+4. [Core Features & Functional Requirements](#4-core-features-functional-requirements)
+
    - [4.1 Storytelling](#41-storytelling)
    - [4.2 Vocabulary & Knowledge Tracking](#42-vocabulary-knowledge-tracking)
    - [4.3 Assessments & Gamification](#43-assessments-gamification)
 
-5. [Community Contribution Features](#community-contribution-features)
+5. [Community Contribution Features](#5-community-contribution-features)
+
    - [5.1 Roles](#51-roles)
    - [5.2 Contributor Dashboard](#52-contributor-dashboard)
 
-6. [Offline Optimization & Accessibility](#offline-optimization-accessibility)
+6. [Offline Optimization & Accessibility](#6-offline-optimization-accessibility)
 
-7. [Ethical Social Storytelling](#ethical-social-storytelling)
+7. [Ethical Social Storytelling](#7-ethical-social-storytelling)
 
-8. [Technical Stack & Implementation](#technical-stack-implementation)
+8. [Technical Stack & Implementation](#8-technical-stack-implementation)
 
-9. [Performance & Optimization Plan](#performance-optimization-plan)
+9. [Performance & Optimization Plan](#9-performance-optimization-plan)
 
-10. [Non-Functional Requirements](#non-functional-requirements)
+10. [Non-Functional Requirements](#10-non-functional-requirements)
+
     - [Security](#security)
     - [Scalability](#scalability)
     - [Maintainability](#maintainability)
     - [Reliability](#reliability)
 
-11. [Future Roadmap](#future-roadmap)
+11. [Future Roadmap](#11-future-roadmap)
 
-12. [Diagrams](#diagrams)
+12. [Diagrams](#12-diagrams)
     - [12.1 High-Level App Architecture Diagram](#121-high-level-app-architecture-diagram)
     - [12.2 User Flow Diagram](#122-user-flow-diagram)
     - [12.3 Wireframes / UI Screen Flow](#123-wireframes-ui-screen-flow)
@@ -55,8 +59,8 @@
     - [12.8 Gamification Logic Flowchart](#128-gamification-logic-flowchart)
     - [12.9 Accessibility Compliance Checklist](#129-accessibility-compliance-checklist)
 
-
 ---
+
 ## **1. Introduction**
 
 ### **1.1 Overview**
@@ -73,17 +77,17 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 
 **Primary Users:**
 
-* Children aged 4–10 who consume and interact with stories
+- Children aged 4–10 who consume and interact with stories
 
 **Secondary Users:**
 
-* Parents tracking child progress
-* Teachers integrating app stories into lessons
+- Parents tracking child progress
+- Teachers integrating app stories into lessons
 
 **Contributors:**
 
-* Story Writers, Narrators, Illustrators, Translators, Reviewers, Moderators
-* Community educators and NGOs collaborating for local content
+- Story Writers, Narrators, Illustrators, Translators, Reviewers, Moderators
+- Community educators and NGOs collaborating for local content
 
 ---
 
@@ -104,74 +108,76 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 
 ### **4.1 Storytelling**
 
-* **Modes:**
+- **Modes:**
 
-  * Voice-only narration (low data)
-  * Voice + Image (picture book)
-  * Optional lightweight animations (CSS/Lottie)
-  * Text-only + audio mode for ultra-low bandwidth
+  - Voice-only narration (low data)
+  - Voice + Image (picture book)
+  - Optional lightweight animations (CSS/Lottie)
+  - Text-only + audio mode for ultra-low bandwidth
 
-* **Player Features:**
+- **Player Features:**
 
-  * Play, Pause, Rewind, Replay
-  * Word-by-word highlighting synced to narration
-  * Adjustable narration speed
-  * Show/hide text option
-  * Bilingual display (native + target language)
-  * Phonics mode for early readers
-  * Download for offline access
+  - Play, Pause, Rewind, Replay
+  - Word-by-word highlighting synced to narration
+  - Adjustable narration speed
+  - Show/hide text option
+  - Bilingual display (native + target language)
+  - Phonics mode for early readers
+  - Download for offline access
 
-* **Story Metadata:**
+- **Story Metadata:**
 
-  * Language, Difficulty Level, Theme Tags, Duration
-  * Target Age Group
-  * Accessibility markers (sign language available, dyslexia-friendly font, etc.)
+  - Language, Difficulty Level, Theme Tags, Duration
+  - Target Age Group
+  - Accessibility markers (sign language available, dyslexia-friendly font, etc.)
 
-* **Special Modes:**
+- **Special Modes:**
 
-  * In-story comprehension prompts
-  * Story remix (safe, pre-approved asset swaps)
+  - In-story comprehension prompts
+  - Story remix (safe, pre-approved asset swaps)
 
 ---
 
 ### **4.2 Vocabulary & Knowledge Tracking**
 
-* Auto-generated vocabulary list per story
-* Each word:
+- Auto-generated vocabulary list per story
+- Each word:
 
-  * Child-friendly definition
-  * Example sentence
-  * Audio pronunciation
-  * Related image
-* “Word Bank” per child with:
+  - Child-friendly definition
+  - Example sentence
+  - Audio pronunciation
+  - Related image
 
-  * Learned words & words in progress
-  * Adaptive review schedule based on performance
-* Thematic learning cards after story completion
-* Bilingual word view for cross-language reinforcement
+- “Word Bank” per child with:
+
+  - Learned words & words in progress
+  - Adaptive review schedule based on performance
+
+- Thematic learning cards after story completion
+- Bilingual word view for cross-language reinforcement
 
 ---
 
 ### **4.3 Assessments & Gamification**
 
-* **Quiz Types:**
+- **Quiz Types:**
 
-  * Match word ↔ picture
-  * Multiple-choice
-  * Fill-in-the-blank (with audio/image clues)
-  * Drag-and-drop sentence building
+  - Match word ↔ picture
+  - Multiple-choice
+  - Fill-in-the-blank (with audio/image clues)
+  - Drag-and-drop sentence building
 
-* **Gamification:**
+- **Gamification:**
 
-  * Stars for quiz completion
-  * Badges for milestones
-  * Unlockable bonus stories
-  * Seasonal/cultural event challenges
-  * Optional leaderboards for class/school use
+  - Stars for quiz completion
+  - Badges for milestones
+  - Unlockable bonus stories
+  - Seasonal/cultural event challenges
+  - Optional leaderboards for class/school use
 
-* **Adaptive Difficulty:**
+- **Adaptive Difficulty:**
 
-  * Adjusts quiz complexity and vocabulary review speed
+  - Adjusts quiz complexity and vocabulary review speed
 
 ---
 
@@ -179,53 +185,55 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 
 ### **5.1 Roles**
 
-* Story Writers, Narrators, Illustrators, Translators, Reviewers, Moderators
-* NGOs/Educators as verified partners
+- Story Writers, Narrators, Illustrators, Translators, Reviewers, Moderators
+- NGOs/Educators as verified partners
 
 ### **5.2 Contributor Dashboard**
 
-* Upload:
+- Upload:
 
-  * Text, Audio, Images
-  * Theme, Difficulty, Language tags
-* Version history with collaborative editing
-* Peer review & voting
-* Quality scoring tiers (Bronze/Silver/Gold)
-* Contributor training hub with best practices
-* AI-assisted translation/localization (child-safe)
+  - Text, Audio, Images
+  - Theme, Difficulty, Language tags
+
+- Version history with collaborative editing
+- Peer review & voting
+- Quality scoring tiers (Bronze/Silver/Gold)
+- Contributor training hub with best practices
+- AI-assisted translation/localization (child-safe)
 
 ---
 
 ## **6. Offline Optimization & Accessibility**
 
-* **PWA** with install option
-* **Service Workers** for caching
-* **IndexedDB** for:
+- **PWA** with install option
+- **Service Workers** for caching
+- **IndexedDB** for:
 
-  * Stories, images, vocabulary, quizzes
-* **Selective Pre-Caching** of favorites/recent stories
-* **Lazy Loading** of media
-* **P2P Sharing:** Bluetooth/WebRTC/Wi-Fi Direct/mesh network
-* **Offline Bundles:** Downloadable “learning packs” of 10–15 stories
+  - Stories, images, vocabulary, quizzes
+
+- **Selective Pre-Caching** of favorites/recent stories
+- **Lazy Loading** of media
+- **P2P Sharing:** Bluetooth/WebRTC/Wi-Fi Direct/mesh network
+- **Offline Bundles:** Downloadable “learning packs” of 10–15 stories
 
 **Accessibility:**
 
-* Screen reader support
-* High-contrast & dyslexia-friendly mode
-* Adjustable text size
-* Sign language video inserts
-* Multi-accent audio options
-* Audio-only mode
+- Screen reader support
+- High-contrast & dyslexia-friendly mode
+- Adjustable text size
+- Sign language video inserts
+- Multi-accent audio options
+- Audio-only mode
 
 ---
 
 ## **7. Ethical Social Storytelling**
 
-* **Parental Consent System** (mandatory opt-in)
-* **Milestone Showcases** with safe avatars (no personal info)
-* **Cultural Campaign Integration** (e.g., “Voices of \[Region]”)
-* **NGO/School collaboration** for story sponsorship
-* Admin-curated galleries of real-life impact stories
+- **Parental Consent System** (mandatory opt-in)
+- **Milestone Showcases** with safe avatars (no personal info)
+- **Cultural Campaign Integration** (e.g., “Voices of \[Region]”)
+- **NGO/School collaboration** for story sponsorship
+- Admin-curated galleries of real-life impact stories
 
 ---
 
@@ -233,17 +241,17 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 
 **Frontend:**
 
-* React/Svelte PWA
-* HTML5 Audio API
-* IndexedDB + LocalStorage
-* Web Bluetooth / Capacitor plugin for P2P
+- React/Svelte PWA
+- HTML5 Audio API
+- IndexedDB + LocalStorage
+- Web Bluetooth / Capacitor plugin for P2P
 
 **Backend:**
 
-* Node.js + Express or Go
-* Supabase/Firebase (real-time + offline persistence)
-* IPFS/S3 for media
-* Passwordless OTP/Magic Link authentication
+- Node.js + Express or Go
+- Supabase/Firebase (real-time + offline persistence)
+- IPFS/S3 for media
+- Passwordless OTP/Magic Link authentication
 
 ---
 
@@ -266,37 +274,36 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 
 **Security:**
 
-* HTTPS for all traffic
-* Encryption at rest/in transit
-* Role-based contributor permissions
+- HTTPS for all traffic
+- Encryption at rest/in transit
+- Role-based contributor permissions
 
 **Scalability:**
 
-* CDN-backed hosting
-* Modular architecture for feature growth
+- CDN-backed hosting
+- Modular architecture for feature growth
 
 **Maintainability:**
 
-* GitHub Actions CI/CD
-* API docs via Swagger/OpenAPI
+- GitHub Actions CI/CD
+- API docs via Swagger/OpenAPI
 
 **Reliability:**
 
-* Offline-first design
-* Sync retries for failed uploads
+- Offline-first design
+- Sync retries for failed uploads
 
 ---
 
 ## **11. Future Roadmap**
 
-* AI-powered personalized story recommendations
-* Speech recognition for retelling practice
-* LMS integration for schools
-* Parent/teacher discussion boards
-* Open Educational Resource (OER) story archive
-* Micro-donation model to sponsor translations
-* Global seasonal storytelling events
-
+- AI-powered personalized story recommendations
+- Speech recognition for retelling practice
+- LMS integration for schools
+- Parent/teacher discussion boards
+- Open Educational Resource (OER) story archive
+- Micro-donation model to sponsor translations
+- Global seasonal storytelling events
 
 # Diagrams
 
@@ -496,5 +503,3 @@ graph TD
 ```
 
 ---
-
-
