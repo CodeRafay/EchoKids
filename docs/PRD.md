@@ -2,8 +2,11 @@
 # **Project Requirements & Functional Specification**
 
 **Project Title:** Community-Driven Educational Storytelling App for Children (Ages 4–10)
+
 **Version:** 1.0
+
 **Author:** Rafay Adeel
+
 **Date:** August 11, 2025
 
 ---
