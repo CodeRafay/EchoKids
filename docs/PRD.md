@@ -292,13 +292,14 @@ graph TD
 
 ```mermaid
 graph TD
-    Home[Home Screen] --> StoryList[Story List]
-    StoryList --> StoryDetail[Story Detail (Audio + Image)]
-    StoryDetail --> Quiz[Quiz / Assessment]
-    StoryDetail --> Download[Download Story]
-    Home --> Dashboard[Parent Dashboard]
-    Dashboard --> Progress[Child Progress]
-    Dashboard --> Settings[Settings]
+    Home["Home Screen"] --> StoryList["Story List"]
+    StoryList --> StoryDetail["Story Detail (Audio + Image)"]
+    StoryDetail --> Quiz["Quiz / Assessment"]
+    StoryDetail --> Download["Download Story"]
+    Home --> Dashboard["Parent Dashboard"]
+    Dashboard --> Progress["Child Progress"]
+    Dashboard --> Settings["Settings"]
+
 ```
 
 ---
