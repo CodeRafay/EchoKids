@@ -252,7 +252,7 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 * Global seasonal storytelling events
 
 
-Diagrams
+# Diagrams
 
 ---
 
@@ -269,6 +269,7 @@ graph TD
     C --> G[Third-Party Services]
     G --> H[Push Notifications]
     G --> I[Analytics]
+
 ```
 
 ---
