@@ -35,9 +35,9 @@
 
 7. [Ethical Social Storytelling](#7-ethical-social-storytelling)
 
-8. [Technical Stack & Implementation](#8-technical-stack-implementation)
+8. [Technical Stack & Implementation](#8-technical-stack-&-implementation)
 
-9. [Performance & Optimization Plan](#9-performance-optimization-plan)
+9. [Performance & Optimization Plan](#9-performance-&-optimization-plan)
 
 10. [Non-Functional Requirements](#10-non-functional-requirements)
 
@@ -49,7 +49,7 @@
 11. [Future Roadmap](#11-future-roadmap)
 
 12. [Diagrams](#12-diagrams)
-    - [12.1 High-Level App Architecture Diagram](#121-high-level-app-architecture-diagram)
+    <!-- - [12.1 High-Level App Architecture Diagram](#121-high-level-app-architecture-diagram)
     - [12.2 User Flow Diagram](#122-user-flow-diagram)
     - [12.3 Wireframes / UI Screen Flow](#123-wireframes-ui-screen-flow)
     - [12.4 Data Flow Diagram (Level 0)](#124-data-flow-diagram-level-0)
@@ -57,7 +57,7 @@
     - [12.6 Use Case Diagram](#126-use-case-diagram)
     - [12.7 Sequence Diagram (Child completes activity)](#127-sequence-diagram-child-completes-activity)
     - [12.8 Gamification Logic Flowchart](#128-gamification-logic-flowchart)
-    - [12.9 Accessibility Compliance Checklist](#129-accessibility-compliance-checklist)
+    - [12.9 Accessibility Compliance Checklist](#129-accessibility-compliance-checklist) -->
 
 ---
 
@@ -305,7 +305,7 @@ It also includes **adaptive learning**, **accessibility-first design**, and **lo
 - Micro-donation model to sponsor translations
 - Global seasonal storytelling events
 
-# Diagrams
+# 12. Diagrams
 
 ---
 
